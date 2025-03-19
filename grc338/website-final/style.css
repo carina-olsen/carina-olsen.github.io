@@ -1,0 +1,259 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+
+div.home-container { 
+	background: url(glassboba\ with\ straws.jpg) center center fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+	max-width: 80em;
+    margin:auto;
+    background-color: rgb(242, 242, 242);
+}
+
+
+div.container { 
+	position: relative;
+	min-height: 100vh;
+	max-width: 80em;
+    margin:auto;
+    background-color: rgb(242, 242, 242);
+}
+
+
+/* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
+
+
+main { 
+	padding: 1em 1.75em 6em;
+}
+
+img {
+    width: 100%; /*Please leave this line.*/
+    display: block;
+}
+
+body{
+	background-color: rgb(113, 52, 27);
+}
+    
+
+header {
+	display: grid;
+	grid-template-columns: 12em auto;
+	background: solid;
+	background-color: rgb(203, 166, 141);
+	padding: 1em 0.75em;
+	}
+
+body {  
+	font-family: sans-serif;  
+}  
+	
+	
+p.slogan {  
+	font-family: serif;  
+	font-style: italic;  
+}
+
+h1 {
+	width: 15em;
+	}
+
+h2, h3, h4 {
+		font-weight: bold;
+	}
+
+h2 {
+	font-family: "keedy-sans", sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+	font-style: normal;
+	}
+	
+h3 {
+	font-size: 1.5em;
+	margin: 1em 0em 0.5em;
+	font-family: "keedy-sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:rgb(113, 52, 27);
+}
+
+h4{
+	font-family: "hanken-grotesk", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+li.selected a{
+	color: rgb(230, 230, 230);
+}
+
+a {
+	text-decoration: none;
+	}
+
+nav ul  {
+	text-align: right;
+	}
+	
+ul li 	{
+	list-style-type: none;
+}
+
+figure {
+	margin-bottom: 2em;
+}
+
+article {
+	max-width: 35em;
+	margin: auto;
+}
+
+main.menu{
+	padding-bottom: 4em;
+}
+
+main.menu ul {
+		margin: 1em 0em;
+}	
+
+main.menu ul li {
+		margin: 1.5em 0em 2em;
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+		max-width: 25em;
+		column-gap: 5em;
+}	
+
+p {
+	margin: 1em 0em 1em;
+	line-height: 1.25em;
+	font-family: "hanken-grotesk", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	}
+	
+p.description {
+	grid-column: 1/3;
+	margin: 0em;
+	line-height: 1.5em;
+	}
+	
+p.price {
+	grid-row: 1/2;
+	grid-column: 2/2;
+	color: rgb(113, 52, 27);
+	text-align: right;
+	margin: 0em;
+	}
+	
+nav {
+	margin-top: 1.5em;
+	text-align: right;	
+}
+
+nav ul li {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 1.25em;
+	font-family: "hanken-grotesk", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 0.1em;
+	}
+	
+nav ul li a {
+	color: rgb(113, 52, 27);
+	padding: 0.40em 0.40em 0.35em;
+	text-decoration: none;
+	}
+	
+
+p.slogan {
+	font-size: 5em;
+	margin: 0.25em 0.25em 0.25em;
+	color:rgb(230, 230, 230);
+	padding: 0.5em 0rem 1.25em;	
+	font-family: "hanken-grotesk", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	}
+	
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem; 
+  box-sizing: border-box;
+  padding: 1em 1em;
+  background: solid;
+  background-color: rgb(230, 230, 230);
+}
+
+address {
+	color: rgb(113, 52, 27);
+	line-height: 1.25em;
+	font-family: "hanken-grotesk", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	}
+
+footer p {
+	margin: 0em;
+	color: rgb(113, 52, 27);
+}
+
+/*
+font-family: keedy-sans, sans-serif;
+font-style: normal;
+font-weight: 400;
+
+font-family: "hanken-grotesk", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "hanken-grotesk", sans-serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: "hanken-grotesk", sans-serif;
+font-weight: 700;
+font-style: normal;
+*/
+
+@media screen and (min-width: 60em) {
+	
+	nav ul li {
+		display: inline;
+		padding: 0.3em 0.3em;	
+	}
+
+	nav ul li a {
+		padding: 0.7em 0.7em 0.5em;
+		text-decoration: none;
+		font-size: 1.6em;
+		}
+
+	main.menu ul {
+		margin: 1em 0em;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: auto auto auto;
+		grid-gap: 1em 3em;
+	}	
+
+	main.menu ul li {
+		border-top: dashed rgb(203, 166, 141) 1px;
+		padding-top: .3em;
+	}
+
+	p.slogan{
+		font-size: 7em;
+	}
+	
+}
