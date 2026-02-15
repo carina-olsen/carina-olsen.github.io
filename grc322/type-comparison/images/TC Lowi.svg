@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="lowercase" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 478 414.28">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #231f20;
+      }
+
+      .st1 {
+        fill: #f68c45;
+      }
+
+      .st2 {
+        fill: #2e6bae;
+      }
+    </style>
+  </defs>
+  <path class="st0" d="M314.88,141.42c0,8.59-7.16,15.75-15.75,15.75s-15.99-7.16-15.99-15.75,7.16-15.99,15.99-15.99,15.75,7.16,15.75,15.99ZM311.3,298.67h-24.58v-125.27h24.58v125.27Z"/>
+  <path class="st0" d="M187.08,127.82h18.85v25.29h-18.85v-25.29ZM187.08,179.12h18.85v119.79h-18.85v-119.79Z"/>
+  <path class="st1" d="M314.88,141.47c0,8.59-7.16,15.75-15.75,15.75s-15.99-7.16-15.99-15.75,7.16-15.99,15.99-15.99,15.75,7.16,15.75,15.99Z"/>
+  <path class="st2" d="M187.08,127.81h18.85v25.29h-18.85v-25.29Z"/>
+</svg>
