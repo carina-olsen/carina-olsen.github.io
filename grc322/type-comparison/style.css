@@ -10,7 +10,7 @@ body {
 }
 
 div.container {
-	max-width: 25em;
+	max-width: 28em;
 	margin: auto;
 }
 
@@ -45,7 +45,7 @@ span.interstate {
 }
 
 h2 {
-	font-size: 2em; 
+	font-size: 2.3em; 
 	font-family: adobe-garamond-pro, serif;
 	font-weight: 600;
 	font-style: normal;
@@ -53,14 +53,14 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5em; 
+	font-size: 1.7em; 
 	font-family: adobe-garamond-pro, serif;
 	font-weight: 400;
 	font-style: italic;
 }
 
 p {
-	font-size: 1em;
+	font-size: 1.2em;
 	font-family: adobe-garamond-pro, serif;
 	font-weight: 400;
 	font-style: normal;
